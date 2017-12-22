@@ -14,6 +14,7 @@
 		BA20F2EE1FE303FA00D0EA28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA20F2EC1FE303FA00D0EA28 /* LaunchScreen.storyboard */; };
 		BA20F2F91FE303FA00D0EA28 /* AnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20F2F81FE303FA00D0EA28 /* AnimationTests.swift */; };
 		BA20F3041FE303FA00D0EA28 /* AnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20F3031FE303FA00D0EA28 /* AnimationUITests.swift */; };
+		BA20F3121FED87A300D0EA28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA20F3111FED87A300D0EA28 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BA20F2FF1FE303FA00D0EA28 /* AnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA20F3031FE303FA00D0EA28 /* AnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUITests.swift; sourceTree = "<group>"; };
 		BA20F3051FE303FA00D0EA28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA20F3111FED87A300D0EA28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BA20F2E31FE303FA00D0EA28 /* AppDelegate.swift */,
 				BA20F2E51FE303FA00D0EA28 /* ViewController.swift */,
+				BA20F3111FED87A300D0EA28 /* Extensions.swift */,
 				BA20F2E71FE303FA00D0EA28 /* Main.storyboard */,
 				BA20F2EA1FE303FA00D0EA28 /* Assets.xcassets */,
 				BA20F2EC1FE303FA00D0EA28 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA20F2E61FE303FA00D0EA28 /* ViewController.swift in Sources */,
+				BA20F3121FED87A300D0EA28 /* Extensions.swift in Sources */,
 				BA20F2E41FE303FA00D0EA28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
